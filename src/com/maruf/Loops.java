@@ -25,10 +25,21 @@ public class Loops {
 
         int number = input.nextInt();
 
+
+
+        int numb = 1;
+
+        do {
+            System.out.println("the value is number " + numb);
+            numb++;
+        }while (numb <= number);
+
+
+
         for(int num = 0; num <= number; num++){
             System.out.println("the value is now " + num);
-
-            num++;
         }
+
+
     }
 }
