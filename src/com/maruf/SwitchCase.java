@@ -16,5 +16,23 @@ public class SwitchCase {
             case "Java" ->  System.out.println("Now you are coding on this language. and you are the programmer");
             default ->  System.out.println("In which language do you code and program");
         }
+
+
+        String day = input.nextLine();
+
+        switch (day) {
+            case "Satarday":
+            case "Sunday":
+            case "Monday":
+            case "Tuesday":
+            case "Wednesday":
+            case "Thursday":
+                System.out.println("I work hard on this days and code a lot and hardwork");
+                break;
+            case "Friday":
+                System.out.println("I sleep and sleep and sleep on this day");
+                break;
+        }
     }
 }
+
