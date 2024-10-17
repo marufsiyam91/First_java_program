@@ -20,19 +20,27 @@ public class SwitchCase {
 
         String day = input.nextLine();
 
+//        switch (day) {
+//            case "Satarday":
+//            case "Sunday":
+//            case "Monday":
+//            case "Tuesday":
+//            case "Wednesday":
+//            case "Thursday":
+//                System.out.println("I work hard on this days and code a lot and hardwork");
+//                break;
+//            case "Friday":
+//                System.out.println("I sleep and sleep and sleep on this day");
+//                break;
+//        }
+
         switch (day) {
-            case "Satarday":
-            case "Sunday":
-            case "Monday":
-            case "Tuesday":
-            case "Wednesday":
-            case "Thursday":
-                System.out.println("I work hard on this days and code a lot and hardwork");
-                break;
-            case "Friday":
-                System.out.println("I sleep and sleep and sleep on this day");
-                break;
+            case "Satarday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday" -> System.out.println("I work hard on this days and code a lot and hardwork");
+            case "Friday" -> System.out.println("I sleep and sleep and sleep on this day");
         }
+
+
+
     }
 }
 
